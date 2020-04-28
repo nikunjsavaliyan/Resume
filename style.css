@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;400&display=swap");
+
+/* yellowish :#C2A227 */
+/* contact :#292931 */
+/* education :#3E414A */
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .inline {
+  display: block;
+} */
+
+.list-head {
+  text-transform: uppercase;
+}
+
+.pl {
+  padding-right: 20px;
+}
+
+.circle {
+  border: 2px solid #fff;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+main {
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "col1 col2"
+    "col1 col2";
+}
+
+.m-col1 {
+  grid-area: col1;
+  background-color: rgb(112, 188, 255);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.m-col2 {
+  grid-area: col2;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.s1-row1 {
+  background-color: rgb(100, 255, 95);
+}
+.s1-row2 {
+  background-color: #292931;
+  display: inline;
+  padding-right: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.s1-row2 h3 {
+  text-align: right;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  color: #c2a227;
+}
+
+.s1-row2 hr {
+  color: #c2a227;
+}
+
+.s1-row2 .lists {
+  list-style: none;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.s1-row2 .lists li {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.s1-row2 .lists li:nth-child(1) {
+  padding-top: 10px;
+}
+.s1-row2 .lists li:nth-child(4) {
+  padding-bottom: 20px;
+}
+
+.s1-row2 .lists li:nth-child(1),
+.s1-row2 .lists li:nth-child(2),
+.s1-row2 .lists li:nth-child(3),
+.s1-row2 .lists li:nth-child(4) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.s1-row3 {
+  background-color: #3e414a;
+  display: inline;
+}
+
+.h3 {
+  color: #292931;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  background-color: #c2a227;
+}
+
+.h3 h3 {
+  position: relative;
+  bottom: 9px;
+}
+
+.s1-row3 .lists {
+  list-style: none;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 12px;
+  padding-right: 20px;
+}
+
+.s1-row3 .lists li {
+  text-align: right;
+  padding-bottom: 40px;
+}
+
+.s1-row3 .lists li:nth-child(1) {
+  padding-top: 30px;
+}
+
+.s1-row3 .lists li:nth-child(1),
+.s1-row3 .lists li:nth-child(2),
+.s1-row3 .lists li:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.s1-row4 {
+  background-color: rgb(95, 204, 255);
+}
+
+.s2-row1 {
+  background-color: rgb(255, 196, 119);
+}
+.s2-row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.s2-col1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.s2-col2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.s21-row1 {
+  background-color: rgb(247, 98, 39);
+}
+.s21-row2 {
+  background-color: rgb(150, 247, 39);
+}
+.s21-row3 {
+  background-color: rgb(75, 78, 255);
+}
+
+.s22-row1 {
+  background-color: rgb(255, 119, 187);
+}
+.s22-row2 {
+  background-color: rgb(209, 73, 250);
+}
+.s22-row3 {
+  background-color: rgb(36, 243, 191);
+}
